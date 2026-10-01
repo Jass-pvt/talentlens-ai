@@ -8,6 +8,21 @@ No frontend, auth, database, or vector DB. Built to fit a 2–3 hour time box.
 
 Given a folder of resumes, decide who meets the hard bar (Python **and** real AI/agentic work), rank the rest fairly, and make every decision reviewable. Keyword counting fails here: "LangGraph" in a skills list is not the same as a stateful LangGraph agent with tools and evaluation.
 
+
+## Synthetic Resume Test Data
+
+For reproducible testing, this project can use a companion synthetic resume
+generator that creates controlled PDF resumes with different technical
+profiles, including Agentic AI and RAG-focused candidates.
+
+**Companion project:**  
+[synthetic-resume-generator](https://github.com/Jass-pvt/synthetic-resume-generator)
+
+The generator is useful for creating test inputs without exposing real
+candidate PII and for exercising eligibility, evidence extraction, scoring,
+duplicate detection, and failure-handling paths.
+
+
 ## Solution
 
 A four-stage pipeline: **deterministic → semantic → enrichment → ranking**.
