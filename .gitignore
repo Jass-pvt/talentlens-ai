@@ -1,0 +1,18 @@
+# secrets / local config
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# real candidate data is PII: never commit it
+resumes/*
+!resumes/.gitkeep
+output/*
+!output/.gitkeep
