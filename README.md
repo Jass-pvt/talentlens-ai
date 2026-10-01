@@ -249,3 +249,24 @@ JSON (abridged):
 2. Structured LLM evidence extraction with evaluation/calibration.
 3. Bounded asynchronous enrichment with persistent caching.
 4. Integration tests using realistic synthetic resumes and failure scenarios.
+
+## 🔮 Future Improvements
+
+- **Section-Aware Resume Intelligence**  
+  Build deeper understanding of resume sections such as Experience, Projects,
+  Education, Skills, Certifications, and Publications, with native PDF/DOCX
+  document handling.
+
+- **Structured & Calibrated LLM Evidence Extraction**  
+  Transform LLM analysis into validated, structured evidence with confidence
+  scores, supporting text, evidence types, and evaluation/calibration datasets.
+
+- **Scalable Asynchronous Enrichment**  
+  Add bounded asynchronous processing for GitHub and other external signals,
+  backed by persistent caching, retries, rate-limit handling, and failure
+  isolation.
+
+- **Production-Style Integration Testing**  
+  Test realistic synthetic resumes and failure scenarios including malformed
+  documents, missing fields, duplicates, API timeouts, rate limits, and
+  partial pipeline failures.
